@@ -1,0 +1,44 @@
+# ========================================================================
+# DeltaForce OBS Locker - Windows 依赖包清单
+# 平台: Windows 10/11 x64
+# Python: 3.11+
+# ========================================================================
+
+# 深度学习框架 (GPU 支持)
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
+
+# 模型库和计算机视觉
+timm==1.0.14
+opencv-python==4.9.0.80
+albumentations==2.0.4
+supervision==0.22.0
+
+# 数据处理
+numpy==1.26.4
+PyYAML==6.0.1
+scipy==1.13.0
+
+# ONNX 模型格式和推理
+onnx==1.14.0
+onnxruntime==1.15.1
+onnxruntime-gpu==1.18.0
+onnxslim==0.1.31
+
+# 数据集工具
+pycocotools==2.0.7
+
+# Web 界面
+gradio==4.44.1
+
+# 其他工具
+huggingface-hub==0.23.2
+safetensors==0.4.3
+psutil==5.9.8
+py-cpuinfo==9.0.0
+
+# Ultralytics (YOLO)
+# 如需完整功能，使用 git 安装:
+# pip install git+https://github.com/ultralytics/ultralytics.git
+
